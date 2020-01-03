@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Home {
 	
-	@RequestMapping("/")
+	@RequestMapping("/welcome")
 	public String welcome() {
 		return "Jenkins pipeline config script";
 	}
